@@ -1,4 +1,7 @@
-var cat = "helloWorld";
+var content = "";
 
+content+= "<h1>this heading</h1>";
 
-alert(cat);
+content+= "<p>the first text area</p>";
+
+document.write(content);
